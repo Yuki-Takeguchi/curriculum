@@ -8,17 +8,16 @@ public class Task extends Calculator {
      */
     public void doTask() {
     	
-    	Calculator calculator1 = new Calculator();
     	
     	int result = 0;
     	
-    	result = calculator1.plus(10);
+    	result = plus(10);
     	System.out.println("plusメソッドの引数が一つの場合：" + result);
     	
-    	result = calculator1.plus(10,20);
+    	result = plus(10,20);
     	System.out.println("plusメソッドの引数が二つの場合：" + result);
     	
-    	result = calculator1.plus(10,20,30);
+    	result = plus(10,20,30);
     	System.out.println("plusメソッドの引数が三つの場合：" + result);
     	
     	// ② Calculator.javaのすべてのオーバーロードメソッド「plus」に適当な引数を与え、下記画像のよう出力されるようコーディングしなさい。
